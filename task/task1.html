@@ -301,8 +301,67 @@
         color: black;
         background-color: red;
         border-bottom-right-radius: 200px 100px;
+        writing-mode: vertical-lr;
         border: double 10px purple;
         background-clip: content-box;
+      }
+      .border-bottom-style {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px solid;
+        border-bottom-style: dotted;
+      }
+      .border-bottom-width {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px double;
+        border-bottom-width: 5ex;
+      }
+      .border-color {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px solid;
+        border-color: purple peru blue green;
+      }
+      .border-end-end-radius {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px double;
+        border-end-end-radius: 299px 90px;
+        direction: rtl;
+        background-clip: padding-box;
+      }
+      .border-width {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: solid;
+        border-width: 20px 10px 5px 30px;
+      }
+      .border-top-width {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px dotted;
+        border-top-width: 20px;
+      }
+      .border-top-style {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px dotted;
+        border-top-style: inset;
       }
     </style>
   </head>
@@ -466,6 +525,18 @@
             border-bottom-right-radius
           </div>
         </td>
+        <td><div class="border-bottom-style">border-bottom-style</div></td>
+        <td><div class="border-bottom-width">border-bottom-width</div></td>
+      </tr>
+      <tr>
+        <td>
+          <div class="border-color">border-color</div>
+        </td>
+        <td><div class="border-end-end-radius">border-end-end-radius</div></td>
+        <td><div class="border-width">border-width</div></td>
+        <td><div class="border-top-width">border-top-width</div></td>
+        <td><div class="border-top-style">border-top-style</div></td>
+        <td><div></div></td>
       </tr>
     </table>
   </body>
