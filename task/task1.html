@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <style>
+      * {
+        background-color: bisque;
+      }
+      div:hover {
+        width: 250px;
+        height: 250px;
+      }
+      .border-solid {
+        height: 200px;
+        width: 200px;
+        color: red;
+        background-color: black;
+        border: 10px solid;
+      }
+      .border-dashed {
+        height: 200px;
+        width: 200px;
+        color: red;
+        background-color: black;
+        border: 10px dashed;
+      }
+      .border-thick {
+        height: 200px;
+        width: 200px;
+        color: rgb(5, 247, 178);
+        background-color: gray;
+        border: thick double;
+      }
+      .border-ridge {
+        height: 200px;
+        width: 200px;
+        color: white;
+        background-color: gray;
+        border: 15px ridge orange;
+      }
+      .border-block-horizontal {
+        height: 200px;
+        width: 200px;
+        color: white;
+        background-color: gray;
+        border-block: solid 10px pink;
+      }
+      .border-block-vertical {
+        height: 200px;
+        width: 200px;
+        color: yellow;
+        background-color: gray;
+        border-block: ridge 10px pink;
+        writing-mode: vertical-rl;
+      }
+      .border-block-color-vertical {
+        height: 200px;
+        width: 200px;
+        color: yellow;
+        border: 10px solid blue;
+        background-color: gray;
+        border-block-color: black;
+        writing-mode: vertical-rl;
+      }
+      .border-block-color-horizontal {
+        height: 200px;
+        width: 200px;
+        color: yellow;
+        border: 10px ridge green;
+        background-color: gray;
+        border-block-color: purple;
+        writing-mode: horizontal-tb;
+      }
+      .border-block-end-horizontal {
+        height: 200px;
+        width: 200px;
+        color: green;
+        background-color: black;
+        border-block-end: 20px solid red;
+        writing-mode: horizontal-tb;
+      }
+      .border-block-end-vertical {
+        height: 200px;
+        width: 200px;
+        color: green;
+        background-color: black;
+        border-block-end: 20px dotted red;
+        writing-mode: vertical-lr;
+      }
+      .border-block-end-color-horizontal {
+        height: 200px;
+        width: 200px;
+        color: green;
+        border: 10px solid;
+        background-color: red;
+        border-block-end-color: black;
+        writing-mode: horizontal-tb;
+      }
+      .border-block-end-color-vertical {
+        height: 200px;
+        width: 200px;
+        color: green;
+        border: 10px solid;
+        background-color: black;
+        border-block-end-color: pink;
+        writing-mode: vertical-rl;
+      }
+      .border-block-end-color-vertical {
+        height: 200px;
+        width: 200px;
+        color: green;
+        border: 10px solid;
+        background-color: black;
+        border-block-end-color: red;
+        writing-mode: vertical-lr;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <div class="border-solid">border-solid</div>
+        </td>
+        <td>
+          <div class="border-dashed">border-dashed</div>
+        </td>
+        <td>
+          <div class="border-thick">border-thick</div>
+        </td>
+
+        <td>
+          <div class="border-ridge">border-ridge</div>
+        </td>
+        <td>
+          <div class="border-block-horizontal">border-block-horizontal</div>
+        </td>
+        <td>
+          <div class="border-block-vertical">border-block-vertical</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="border-block-color-vertical">
+            border-block-color-vertical
+          </div>
+        </td>
+        <td>
+          <div class="border-block-color-horizontal">
+            border-block-color-horizontal
+          </div>
+        </td>
+        <td>
+          <div class="border-block-end-horizontal">
+            border-block-end-horizontal
+          </div>
+        </td>
+        <td>
+          <div class="border-block-end-vertical">border-block-end-vertical</div>
+        </td>
+        <td>
+          <div class="border-block-end-color-horizontal">
+            border-block-end-color-horizontal
+          </div>
+        </td>
+        <td>
+          <div class="border-block-end-color-vertical">
+            border-block-end-color-vertical
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="border-block-end-color-vertical">
+            border-block-end-color-vertical
+          </div>
+        </td>
+        <div class=""></div>
+        <div class=""></div>
+      </tr>
+    </table>
+  </body>
+</html>
