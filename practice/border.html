@@ -363,6 +363,156 @@
         border: 10px dotted;
         border-top-style: inset;
       }
+      .border-top-right-radius {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge purple;
+        border-top-right-radius: 100px 190px;
+      }
+      .border-top-left-radius {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge purple;
+        border-top-left-radius: 190px 90px;
+        direction: rtl;
+      }
+      .border-top-color {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px double;
+        border-top-color: palegreen;
+      }
+      .border-top {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px double;
+        border-top: 20px dotted palegreen;
+      }
+      .border-style {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px green;
+        border-style: solid dotted double ridge;
+      }
+      .border-right-width {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 5px solid black;
+        border-right-width: 20px;
+      }
+      .border-right-style {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px solid black;
+        border-right-style: dotted;
+      }
+      .border-right-color {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px double black;
+        border-right-color: greenyellow;
+      }
+      .border-right {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px solid black;
+        border-right: 30px yellow ridge;
+      }
+      .border-radius {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px dotted black;
+        border-radius: 40% 20px 60px 90px;
+        direction: rtl;
+      }
+      .border-left-width {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 5px ridge black;
+        border-left-width: 20px;
+      }
+      .border-left-style {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px solid black;
+        border-left-style: dotted;
+      }
+      .border-left-color {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge black;
+        border-left-color: greenyellow;
+      }
+      .border-left {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px double black;
+        border-left: 30px yellow ridge;
+      }
+      .border-inline-width-horizontal {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge black;
+        border-inline-width: 20px;
+        writing-mode: horizontal-tb;
+      }
+      .border-inline-width-vertical {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge black;
+        border-inline-width: 5px;
+        writing-mode: vertical-lr;
+      }
+      .border-inline-style-horizontal {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge black;
+        border-inline-style: dotted;
+        writing-mode: horizontal-tb;
+      }
+      .border-inline-style-vertical {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge black;
+        border-inline-style: dashed;
+        writing-mode: vertical-rl;
+      }
     </style>
   </head>
   <body>
@@ -536,7 +686,50 @@
         <td><div class="border-width">border-width</div></td>
         <td><div class="border-top-width">border-top-width</div></td>
         <td><div class="border-top-style">border-top-style</div></td>
-        <td><div></div></td>
+        <td>
+          <div class="border-top-right-radius">border-top-right-radius</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="border-top-left-radius">border-top-left-radius</div>
+        </td>
+        <td><div class="border-top-color">border-top-color</div></td>
+        <td><div class="border-top">border-top</div></td>
+        <td><div class="border-style">border-style</div></td>
+        <td><div class="border-right-width">border-right-width</div></td>
+        <td><div class="border-right-style">border-right-style</div></td>
+      </tr>
+      <tr>
+        <td><div class="border-right-color">border-right-color</div></td>
+        <td><div class="border-right">border-right</div></td>
+        <td><div class="border-radius">border-radius</div></td>
+        <td><div class="border-left-width">border-left-width</div></td>
+        <td><div class="border-left-style">border-left-style</div></td>
+        <td><div class="border-left-color">border-left-color</div></td>
+      </tr>
+      <tr>
+        <td><div class="border-left">border-left</div></td>
+        <td>
+          <div class="border-inline-width-horizontal">
+            border-inline-width-horizontal
+          </div>
+        </td>
+        <td>
+          <div class="border-inline-width-vertical">
+            border-inline-width-vertical
+          </div>
+        </td>
+        <td>
+          <div class="border-inline-style-horizontal">
+            border-inline-style-horizontal
+          </div>
+        </td>
+        <td>
+          <div class="border-inline-style-vertical">
+            border-inline-style-vertical
+          </div>
+        </td>
       </tr>
     </table>
   </body>
