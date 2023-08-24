@@ -10,26 +10,24 @@
   background-size: 100% 750px;
   height: 700px;
   width: 100%;
+  padding: 0 7px;
 }
-span {
-  /* font: inherit;
-  color: inherit;
-  letter-spacing: inherit; */
+.solid-bars {
+  display: flex;
 }
-.army {
-  margin-left: 20px;
+.button-2 {
+  display: inline;
 }
+
 i {
-  padding-top: 20px;
   fill: currentColor;
   flex: none;
   height: 20px;
   width: 20px;
 }
-.bars {
-  padding: 10px;
-}
+
 .uber1 {
+  display: flex;
   padding: 30px;
 }
 .uber2 {
@@ -59,7 +57,7 @@ input[type="text"] {
   font-size: 14px;
   /* font-weight: normal; */
 }
-#now {
+.now {
   font-size: 17px;
   padding: 10px;
   width: 200px;
@@ -87,7 +85,6 @@ input[type="text"] {
   border: 0;
   background-color: white;
   color: black;
-  margin-left: 1000px;
 }
 #SIGNUP {
   font-size: 17px;
@@ -288,6 +285,7 @@ hr {
   padding: 40px;
   padding-bottom: 0px;
   display: flex;
+  padding-right: 0px;
 }
 #hr1 {
   margin-top: 30px;
@@ -327,4 +325,31 @@ hr {
   line-height: 20px;
 
   font-family: UberMoveText, sans-serif;
+}
+.do-not {
+  padding-right: 2px;
+  font-family: UberMoveText, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+nav,
+.navbar,
+.log {
+  display: flex;
+  align-items: center;
+}
+nav {
+  justify-content: space-between;
+  padding: 37px;
+}
+.navbar {
+  justify-content: space-between;
+  width: 200px;
+}
+.log {
+  justify-content: space-between;
+  width: 200px;
+}
+.bar {
+  margin-top: 10px;
 }
