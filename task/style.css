@@ -169,12 +169,13 @@ input[type="text"] {
   font-size: 17px;
   text-decoration: underline;
   border: 0;
-  font-weight: 700;
+
   padding-top: 0px;
   text-align: right;
   padding-left: 1031px;
   display: inline-block;
   margin-top: 18px;
+  font-family: UberMoveText, sans-serif;
 }
 
 .map {
@@ -220,7 +221,8 @@ li {
   padding-left: 850px;
   font-size: 17px;
   text-decoration: underline;
-  font-weight: 700;
+
+  font-family: UberMoveText, sans-serif;
 }
 hr {
   margin-top: 60px;
@@ -355,4 +357,7 @@ nav {
 }
 .box01 {
   margin-right: 16px;
+}
+.sign-in {
+  text-decoration: underline;
 }
