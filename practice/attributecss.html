@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attributes Selector</title>
+    <style>
+      div[class*="circle"] {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin: 10px auto;
+        border: 1px solid black;
+        color: aliceblue;
+      }
+      .circle-1 {
+        background-color: teal;
+      }
+      .circle-2 {
+        background-color: rgb(128, 19, 0);
+      }
+      .circle-3 {
+        background-color: rgb(53, 0, 128);
+      }
+      .circle-4 {
+        background-color: rgb(246, 6, 170);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Attributes Selector</h1>
+    <div class="circle-1">circle-1</div>
+    <div class="circle-2">circle-2</div>
+    <div class="circle-3">circle-3</div>
+    <div class="circle-4">circle-4</div>
+  </body>
+</html>

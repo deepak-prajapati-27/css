@@ -64,6 +64,7 @@ input[type="text"] {
   height: 58px;
   border: 0;
   margin-left: 5px;
+  cursor: pointer;
 }
 #button {
   font-size: 17px;
@@ -75,6 +76,7 @@ input[type="text"] {
   background-color: black;
   color: white;
   margin-left: 5px;
+  cursor: pointer;
 }
 #login {
   font-size: 17px;
@@ -85,6 +87,7 @@ input[type="text"] {
   border: 0;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 #SIGNUP {
   font-size: 17px;
@@ -96,6 +99,7 @@ input[type="text"] {
   background-color: black;
   color: white;
   margin-left: 13px;
+  cursor: pointer;
 }
 
 .user5 {
@@ -339,6 +343,7 @@ nav,
 .log {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 nav {
   justify-content: space-between;
@@ -357,7 +362,9 @@ nav {
 }
 .box01 {
   margin-right: 16px;
+  cursor: pointer;
 }
 .sign-in {
   text-decoration: underline;
+  cursor: pointer;
 }
