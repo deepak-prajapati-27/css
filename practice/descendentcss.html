@@ -6,12 +6,13 @@
     <title>Descendant Selector</title>
     <style>
       .parent p {
-        background-color: crimson;
-        color: aliceblue;
+        background-color: grey;
+        color: whitesmoke;
         font-size: 30px;
       }
       .child p {
-        background-color: blue;
+        background-color: black;
+        color: aliceblue;
       }
     </style>
   </head>
@@ -19,33 +20,27 @@
     <h1>Descendant Selector</h1>
     <div class="parent">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.
+        deepak handsome hunk
+        <!-- if we have a div and we give that give a class and then inside that div
+        we give p tag then i will only apply inside p tag only not outside the
+        div p tag -->
       </p>
+      <p>deepak handsome hunk</p>
+      <p>deepak handsome hunk</p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.
+        example:
+        <br />
+        parent p { background-color: red; }
       </p>
       <div class="child">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
-          dolores.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
-          dolores.
-        </p>
+        <p>deepak handsome hunk</p>
+        <p>deepak handsome hunk</p>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, dolores.
-      </p>
+      <p>deepak handsome hunk</p>
+      <p>deepak handsome hunk</p>
+      <p>deepak handsome hunk</p>
+      <p>deepak handsome hunk</p>
+      <p></p>
     </div>
   </body>
 </html>
