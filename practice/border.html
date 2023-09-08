@@ -7,6 +7,15 @@
     <style>
       * {
         background-color: bisque;
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        /* text-align: center; */
+      }
+      div[class*="border"] {
+        text-align: center;
+        padding: 20%;
+        /* border-spacing: 50px; */
       }
       div:hover {
         width: 250px;
@@ -25,6 +34,13 @@
         color: black;
         background-color: red;
         border: 10px dashed;
+      }
+      .border-groove {
+        height: 200px;
+        width: 200px;
+        color: red;
+        background-color: black;
+        border: 10px groove orange;
       }
       .border-thick {
         height: 200px;
@@ -513,6 +529,14 @@
         border-inline-style: dashed;
         writing-mode: vertical-rl;
       }
+      .border-outline {
+        height: 200px;
+        width: 200px;
+        color: black;
+        background-color: red;
+        border: 10px ridge black;
+        outline: dotted 20px red;
+      }
     </style>
   </head>
   <body>
@@ -729,6 +753,14 @@
           <div class="border-inline-style-vertical">
             border-inline-style-vertical
           </div>
+        </td>
+        <td>
+          <div class="border-outline">border-outline</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="border-groove">border-groove</div>
         </td>
       </tr>
     </table>

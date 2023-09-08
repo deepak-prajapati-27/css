@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  /* text-indent: 80px; */
+  height: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 90px;
+  position: sticky;
+  top: 0;
+}
+.logo-1 {
+  height: 50px;
+  width: 50px;
+}
+.link-1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet Ms", sans-serif;
+}
+.link-1:first-of-type {
+  margin-left: 40px;
+}
+.button-1 {
+  color: white;
+  background: rgba(255, 255, 255, 0.17);
+  padding: 14px 12px;
+  line-height: 16px;
+  margin: 10px;
+  margin-left: 650px;
+  border: 0;
+}
+.button-2 {
+  color: #000000;
+  background: #ffffff;
+  padding: 14px 12px;
+  line-height: 16px;
+  margin: 10px;
+  border: 0;
+}
+section {
+  height: 350px;
+  width: 100%;
+  background-image: url(../../images/hero-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position-y: 45%;
+}
+.heading {
+  color: #ffffff;
+  max-width: 320px;
+  text-align: left;
+  position: absolute;
+  top: 20vh;
+  left: 16.5%;
+  letter-spacing: -1px;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet Ms", sans-serif;
+}
