@@ -208,7 +208,285 @@ header {
 }
 .div-class {
   width: 100%;
+  display: flex;
 }
 .div-p {
   width: 37%;
+}
+.div-a {
+  color: #ffffff;
+  opacity: 0.64;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 24px;
+  margin-left: 30px;
+  width: 13%;
+  border: 2px solid #fff;
+  text-align: center;
+  padding-top: 20px;
+  border-image: linear-gradient(rgb(141 141 141), rgba(255, 255, 255, 0)) 15;
+}
+.div-a:first-of-type {
+  margin-left: ;
+}
+
+.km {
+  font-size: 16px;
+}
+.range {
+  margin-top: 12px;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #999999;
+}
+.more {
+  letter-spacing: -0.02em;
+  color: #16aa51;
+  cursor: pointer;
+  font-weight: 800;
+  line-height: 24px;
+  padding-top: 10px;
+}
+.pink-banner {
+  width: 100%;
+  padding-top: 25px;
+}
+.tech {
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  font-size: 48px;
+  margin-top: 80px;
+  color: #000000;
+  text-shadow: 1.152px 1.152px 0px #ffffff, 1.728px 1.728px 0px #92c83e;
+}
+
+.Futurefactory {
+  width: 65%;
+}
+.ola-pro {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 16px;
+  align-items: center;
+  margin-right: 50px;
+  display: flex;
+}
+.powered {
+  background-color: #f0f4f4;
+  padding-top: 150px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.aru {
+  display: flex;
+  margin-bottom: 50px;
+}
+.deepak {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 10px;
+}
+.section-3 {
+  background-color: black;
+}
+.ride {
+  display: flex;
+}
+.ride-1 {
+  margin-right: 25px;
+}
+.ride-bike {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ola-pro-ride {
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 48px;
+  font-size: 24px;
+  padding-top: 20px;
+}
+#video-wrapper {
+  margin-top: 100px;
+}
+.since {
+  display: flex;
+}
+.tech-1 {
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 150px;
+  line-height: 56px;
+  color: #000000;
+  text-shadow: 1.152px 1.152px 0px #ffffff, 1.728px 1.728px 0px #92c83e;
+}
+.innovations {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 80px;
+}
+.for-riders {
+  font-weight: 800;
+  font-size: 29px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.experiment {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+.section-5 {
+  background: rgb(241, 246, 233);
+  width: 100%;
+}
+.insurance-shop-img {
+  width: 65%;
+}
+.insurance-shop-img-1 {
+  width: 100%;
+}
+.insurance-div {
+  display: flex;
+}
+.Postpaid {
+  margin-right: 8px;
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+  line-height: 28px;
+  font-size: 24px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.Trusted {
+  color: rgb(22, 170, 81);
+  padding: 8px;
+  background: rgba(22, 170, 81, 0.1);
+  font-weight: 500;
+  line-height: 10px;
+  font-size: 14px;
+}
+.buy-now {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(0, 0, 0);
+  margin-top: 12px;
+  margin-left: 50px;
+}
+.ola-website {
+  display: flex;
+}
+.ola-prod-website-1 {
+  /* margin-left: 50px; */
+  margin-top: 100px;
+}
+.icon-01:first-of-type {
+  margin-left: 50px;
+}
+.icon-01 {
+  margin-left: 25px;
+  width: 23%;
+}
+.buy-now-1 {
+  margin-top: 20px;
+}
+.new-insurance {
+  color: #000000;
+  font-weight: 200;
+  line-height: 28px;
+  font-size: 24px;
+  margin-top: 100px;
+}
+.new-class {
+  width: 100%;
+  display: flex;
+}
+.risks {
+  font-weight: 00;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-top: 12px;
+  max-width: 300px;
+}
+.Explore-add {
+  letter-spacing: -0.02em;
+  color: rgb(22, 170, 81);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 22px;
+  margin-top: 50px;
+}
+.section-10 {
+  width: 100%;
+}
+.outcome-ola {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: rgb(92, 92, 92);
+  margin-right: 30px;
+}
+.making-ola {
+  width: 50%;
+}
+.womens {
+  padding-top: 30px;
+}
+.donating {
+  padding-top: 5px;
+}
+.about-ola {
+  letter-spacing: -0.02em;
+  color: rgb(22, 170, 81);
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 22px;
+  padding-top: 40px;
+}
+.xyz {
+  background: rgb(242, 244, 240);
+}
+.images-windmill {
+  width: 100%;
+  display: flex;
+}
+.pli-agreement {
+  width: 90%;
+  height: auto;
+}
+.beginning-class {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 16px;
+  margin-right: 28px;
 }
