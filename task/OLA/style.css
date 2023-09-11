@@ -224,12 +224,17 @@ header {
   border: 2px solid #fff;
   text-align: center;
   padding-top: 20px;
+  width: 33%;
+
   border-image: linear-gradient(rgb(141 141 141), rgba(255, 255, 255, 0)) 15;
 }
 .div-a:first-of-type {
   margin-left: ;
 }
-
+.div-0a {
+  display: flex;
+  justify-content: space-between;
+}
 .km {
   font-size: 16px;
 }
@@ -301,9 +306,11 @@ header {
 }
 .ride {
   display: flex;
+  justify-content: space-between;
 }
 .ride-1 {
   margin-right: 25px;
+  width: 100%;
 }
 .ride-bike {
   font-weight: 400;
@@ -476,17 +483,84 @@ header {
 .images-windmill {
   width: 100%;
   display: flex;
+  justify-content: center;
+  /* gap: 20px; */
 }
 .pli-agreement {
   width: 90%;
   height: auto;
 }
+
 .beginning-class {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 23px;
   line-height: 24px;
   letter-spacing: -0.01em;
   color: #000000;
   margin-bottom: 16px;
-  margin-right: 28px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.img-box {
+  width: 25%;
+}
+.know-more {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: #16aa51;
+}
+.section-6 {
+  padding-top: 40px;
+  background: #f2f4f6;
+}
+.iyt {
+  display: ;
+}
+.insta {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.youtube {
+  padding-right: 25px;
+}
+.footer-box {
+  display: flex;
+}
+.deepak {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 0px;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 17px;
+  width: 170px;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet Ms", sans-serif;
+}
+.div-10 {
+  padding-bottom: 12px;
+  margin: 0;
+  font-style: italic;
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet Ms", sans-serif;
+}
+#placeholder {
+  padding: 20px;
+  width: 130%;
+  border: 0;
+  font-size: 18px;
+}
+.footer-container {
+  width: 1400px;
+  /* padding: 50px; */
+  margin: 0 17%;
 }
