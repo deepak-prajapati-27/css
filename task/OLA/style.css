@@ -15,8 +15,13 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding-left: 90px;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+}
+.deepak-1 {
+  display: flex;
 }
 .logo-1 {
   height: 50px;
@@ -27,6 +32,8 @@ header {
   font-size: 14px;
   font-weight: 500;
   padding: 5px 12px;
+  font-size: 14px;
+  font-weight: 600;
   text-decoration: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet Ms", sans-serif;
 }
@@ -41,6 +48,8 @@ header {
   margin: 10px;
   margin-left: 650px;
   border: 0;
+  font-size: 14px;
+  font-weight: 600;
 }
 .button-2 {
   color: #000000;
@@ -49,6 +58,11 @@ header {
   line-height: 16px;
   margin: 10px;
   border: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Hamburger {
+  padding-left: 10px;
 }
 #section-1 {
   height: 350px;
@@ -101,7 +115,7 @@ header {
   background: #fff;
   border: 1.5px solid #e0e0e0;
   padding: 16px;
-  width: 300px;
+  width: 330px;
 }
 
 #location:after {
@@ -120,11 +134,11 @@ header {
   background: #fff;
   border: 1.5px solid #e0e0e0;
   padding: 16px;
-  width: 300px;
+  width: 330px;
 }
 .search {
   padding: 20px;
-  width: 31%;
+  width: 330px;
   border: 0;
   background-color: black;
   color: white;
@@ -152,12 +166,12 @@ header {
   padding-top: 80px;
   text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
 }
-/* .img-1 {
-  width: 50px;
-  height: 50px;
-} */
-.card img {
+.img-1 {
   width: 30%;
+  height: auto;
+}
+.card img {
+  width: 40%;
   height: auto;
 }
 .card .img-2 {
@@ -174,10 +188,11 @@ header {
   justify-content: center;
 }
 .card {
-  width: 33%;
+  width: 30%;
   /* align-items: center;
   justify-content: center; */
   text-align: center;
+  padding-bottom: 100px;
 }
 .card-heading {
   color: #212026;
@@ -185,7 +200,7 @@ header {
   font-weight: 1100;
   line-height: 32px;
   font-size: 40px;
-  padding-top: 40px;
+  /* padding-top: 10px; */
 }
 .card-title {
   color: #212026;
@@ -206,6 +221,7 @@ header {
 }
 #section-2 {
   background-color: black;
+  padding-top: 30px;
 }
 .s1 {
   color: #ffffff;
@@ -215,6 +231,7 @@ header {
   font-weight: 800;
   font-size: 48px;
   margin-top: 80px;
+  padding-top: 100px;
 }
 .s1-sport {
   width: 100%;
@@ -280,13 +297,14 @@ header {
 .pink-banner {
   width: 100%;
   padding-top: 25px;
+  padding-bottom: 150px;
 }
 .tech {
   margin-bottom: 50px;
   letter-spacing: -1px;
   font-weight: 800;
   font-size: 48px;
-  margin-top: 80px;
+  margin-top: 100px;
   color: #000000;
   text-shadow: 1.152px 1.152px 0px #ffffff, 1.728px 1.728px 0px #92c83e;
 }
@@ -357,6 +375,7 @@ header {
   display: flex;
 }
 .tech-1 {
+  /* padding-top: 150px; */
   margin-bottom: 50px;
   letter-spacing: -1px;
   font-weight: 700;
@@ -394,7 +413,7 @@ header {
   width: 65%;
 }
 .insurance-shop-img-1 {
-  width: 100%;
+  width: 91%;
 }
 .insurance-div {
   display: flex;
@@ -405,7 +424,7 @@ header {
   font-weight: 200;
   line-height: 28px;
   font-size: 24px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   display: inline-block;
 }
 .Trusted {
@@ -422,7 +441,7 @@ header {
   line-height: 32px;
   color: rgb(0, 0, 0);
   margin-top: 12px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .ola-website {
   display: flex;
@@ -431,11 +450,11 @@ header {
   /* margin-left: 50px; */
   margin-top: 100px;
 }
-.icon-01:first-of-type {
+/* .icon-01:first-of-type {
   margin-left: 50px;
-}
+} */
 .icon-01 {
-  margin-left: 25px;
+  /* margin-left: 25px; */
   width: 23%;
 }
 .buy-now-1 {
@@ -479,7 +498,7 @@ header {
   line-height: 22px;
   letter-spacing: -0.01em;
   color: rgb(92, 92, 92);
-  margin-right: 30px;
+  margin-right: 58px;
 }
 .making-ola {
   width: 50%;
@@ -532,9 +551,10 @@ header {
   line-height: 130%;
   letter-spacing: -0.02em;
   color: #16aa51;
+  padding-bottom: 150px;
 }
 .section-6 {
-  padding-top: 40px;
+  padding-top: 90px;
   background: #f2f4f6;
 }
 .iyt {
@@ -626,7 +646,7 @@ hr {
 .all-rights {
   display: flex;
   gap: 200px;
-  padding: 30px 0px;
+  padding: 20px 0px;
   align-items: center;
 }
 /* .notices {
@@ -674,11 +694,13 @@ hr {
   letter-spacing: -1px;
   font-weight: 600;
   font-size: 48px;
+  padding-top: 100px;
 }
 .experience {
   display: flex;
   width: 100%;
   /* justify-content: space-between; */
+  margin-bottom: 150px;
 }
 .communicate {
   width: 31%;
@@ -718,4 +740,20 @@ hr {
   font-weight: 400;
   line-height: 20px;
   font-size: 17px;
+}
+.bag-ola {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.Daily {
+  margin-left: 50px;
+}
+.much-more {
+  right: 0px;
+  bottom: -35px;
+  color: #000000;
+  opacity: 0.7;
+  margin-left: 637px;
+  padding-top: 5px;
+  margin-bottom: 100px;
 }
