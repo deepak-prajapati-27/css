@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.netflix-logo {
+  width: 150px;
+  height: auto;
+  fill: red;
+  /* margin-left: 150px; */
+  margin-top: 25px;
+}
+header {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../../images/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.Notices-1 {
+  margin-left: 820px;
+  width: 115px;
+  font-size: 16px;
+  padding: 7px 11px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.445);
+  color: white;
+  border: none;
+}
+.sign-in {
+  /* margin-left: 100px; */
+  width: 80px;
+  font-size: 16px;
+  padding: 8px 13px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: none;
+}
+.biggest-1 {
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.biggest {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  /* margin-left: 150px; */
+  margin-top: 180px;
+}
+.container {
+  width: 1200px;
+  padding: 0px;
+  margin: 0 auto;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join {
+  font-weight: 600;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.join-1 {
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.button {
+  display: flex;
+}
+.email {
+  margin-left: 300px;
+  width: 32%;
+  /* color: inherit; */
+  /* filter: opacity(0%); */
+  padding: 19px;
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.445);
+}
+.button-1 {
+  /* margin-left: 300px; */
+  width: 18%;
+  /* color: inherit; */
+  /* filter: opacity(0%); */
+  padding-left: 5px;
+  background-color: grey;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+::placeholder {
+  color: #ffffffee;
+}
