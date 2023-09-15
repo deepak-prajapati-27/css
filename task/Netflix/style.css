@@ -14,7 +14,7 @@ header {
   background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 80%,
       rgba(0, 0, 0, 0.8) 100%
     ),
     url(../../images/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg);
@@ -99,7 +99,7 @@ main {
   margin-top: 20px;
   font-size: 15px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid grey;
   background-color: rgba(128, 128, 128, 0.445);
 }
 .button-1 {
@@ -119,4 +119,14 @@ main {
 }
 ::placeholder {
   color: #ffffffee;
+}
+.div-2 {
+  background-color: black;
+}
+.enjoy {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: white;
 }
