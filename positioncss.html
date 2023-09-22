@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position in css</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-color: gray;
+      }
+      main {
+        position: relative;
+      }
+      div[class*="box"] {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        border: 10px double black;
+      }
+      .box-1 {
+        background-color: red;
+        z-index: 3;
+        top: -50px;
+        right: -50px;
+      }
+      .box-2 {
+        background-color: rgb(255, 255, 51);
+
+        bottom: -50px;
+        right: -50px;
+      }
+      .box-3 {
+        background-color: goldenrod;
+        background-image: url(../css/images/ubereats.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        margin: 0 auto;
+        top: 30%;
+        left: 43%;
+      }
+      .box-4 {
+        background-color: pink;
+
+        top: -50px;
+        left: -50px;
+      }
+      .box-5 {
+        background-color: brown;
+
+        bottom: -50px;
+        left: -50px;
+      }
+      .box-6 {
+        background-color: blanchedalmond;
+        top: -100px;
+        border-radius: 50%;
+        left: 100px;
+        z-index: 1;
+      }
+      .box-7 {
+        background-color: blueviolet;
+        top: 80px;
+        right: 100px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box-1"></div>
+      <div class="box-2"></div>
+      <div class="box-3"></div>
+      <div class="box-4"></div>
+      <div class="box-5"></div>
+      <div class="box-6"></div>
+      <div class="box-7"></div>
+    </div>
+  </body>
+</html>
