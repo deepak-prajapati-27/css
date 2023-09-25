@@ -4,7 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Psuedu Element Selector</title>
-    <style></style>
+    <style>
+      h1::after {
+        content: "";
+        width: 10px;
+        height: 3px;
+        background-color: gray;
+      }
+
+      h1::before {
+        content: "arma";
+        font-size: 80px;
+        color: brown;
+        margin-right: 40px;
+      }
+      p::before {
+        content: url(../../images/applestore.svg);
+        margin-right: 40px;
+      }
+      p::after {
+        content: url(../../images/clock.svg);
+        margin-left: 40px;
+        /* top: 100px; */
+        /* TOP LEFT RIGHT DOESNT WORK  */
+      }
+    </style>
   </head>
   <body>
     <h1>Psuedu Element Selector</h1>
