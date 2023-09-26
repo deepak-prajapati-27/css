@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex in css</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: goldenrod;
+      }
+      .container-1 {
+        border: 2px solid red;
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        /* in space around the space will be applied from both the side of the div (i.e. left and right)*/
+      }
+      div[class*="div"] {
+        height: 200px;
+        width: 200px;
+        border: 5px dashed black;
+        /* margin: 100px auto; */
+      }
+
+      .container-2 {
+        border: 2px solid red;
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+
+        justify-content: space-between;
+      }
+      .container-3 {
+        border: 2px solid red;
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        display: flex;
+
+        justify-content: space-evenly;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>justify-content:space-around</h1>
+    <div class="container-1">
+      <div class="div-1"></div>
+      <div class="div-2"></div>
+      <div class="div-3"></div>
+    </div>
+    <h1>justify-content:space-between</h1>
+    <div class="container-2">
+      <div class="div-a"></div>
+      <div class="div-b"></div>
+      <div class="div-c"></div>
+    </div>
+    <h1>justify-content:space-between</h1>
+    <div class="container-3">
+      <div class="div-a1"></div>
+      <div class="div-b2"></div>
+      <div class="div-c3"></div>
+    </div>
+  </body>
+</html>
