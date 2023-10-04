@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position-2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        background-color: black;
+      }
+      body {
+        overflow: hidden;
+      }
+      .main {
+        position: relative;
+      }
+      div[class*="box"] {
+        height: 400px;
+        width: 600px;
+        position: absolute;
+      }
+      .box-1 {
+        background-color: red;
+        left: 100px;
+        top: 300px;
+        z-index: 100;
+      }
+      .box-2 {
+        background-color: green;
+        right: 100px;
+        top: 300px;
+        z-index: 50;
+      }
+      .main-2 {
+        position: relative;
+      }
+      div[class*="rec"] {
+        height: 200px;
+        width: 400px;
+        position: absolute;
+      }
+      .rec-1 {
+        background-color: blue;
+        top: 20px;
+        right: 570px;
+      }
+      .rec-2 {
+        background-color: rgb(242, 109, 14);
+        top: 400px;
+        right: 570px;
+        z-index: 70;
+      }
+      .rec-3 {
+        background-color: rgb(241, 13, 89);
+        top: 400px;
+        right: -100px;
+      }
+      .rec-4 {
+        background-color: rgb(28, 215, 15);
+        top: 400px;
+        left: -100px;
+        z-index: 220;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box-1"></div>
+      <div class="box-2"></div>
+    </div>
+    <div class="main-2">
+      <div class="rec-1"></div>
+      <div class="rec-2"></div>
+      <div class="rec-3"></div>
+      <div class="rec-4"></div>
+    </div>
+  </body>
+</html>
