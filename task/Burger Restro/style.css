@@ -89,8 +89,7 @@ ul {
   font-family: sans-serif;
   padding-top: 25px;
 }
-.relative {
-}
+
 div[class*="img"] {
   /* height: 200px;
   width: 200px; */
@@ -176,6 +175,7 @@ div[class*="img"] {
 }
 .burgir {
   border-radius: 50%;
+  /* margin-left: 100px; */
 }
 .row-10 {
   display: flex;
@@ -191,7 +191,7 @@ div[class*="img"] {
   padding-top: 90px;
 }
 .lorem-10 {
-  font-size: 30px;
+  font-size: 28px;
   color: #ffffff;
   font-weight: 400;
   font-family: "Nunito";
@@ -203,6 +203,8 @@ div[class*="img"] {
 }
 .col-50-1 {
   width: 50%;
+  margin-left: 100px;
+  padding-left: 100px;
 }
 .button-10 {
   border-radius: 32px;
@@ -216,7 +218,8 @@ div[class*="img"] {
 }
 .container-4 {
   background-color: #f6eedf;
-  padding: 100px;
+  padding: 100px 0 100px 0;
+  position: relative;
 }
 .big-burger {
   font-size: 75px;
@@ -236,14 +239,238 @@ div[class*="img"] {
 }
 .col-100 {
   width: 50%;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.col-100-1 {
+  width: 50%;
 }
 .button-20 {
   border-radius: 32px;
   background-color: #f64b3c;
   color: white;
-  margin: 40px 0 100px 0;
+  margin: 50px 0 100px 0;
   font-weight: 700;
   font-size: 25px;
   padding: 20px 85px;
   border: none;
+}
+.burgir-1 {
+  border-radius: 50%;
+  margin-left: 100px;
+}
+.deepak div {
+  position: absolute;
+}
+/* div[class*="images"] {
+  position: absolute;
+} */
+
+.images-11 {
+  top: 135px;
+  left: -7px;
+}
+.images-12 {
+  top: 20px;
+  right: 630px;
+}
+.images-13 {
+  top: 100px;
+  right: 50px;
+}
+.images-14 {
+  bottom: 20px;
+  left: 155px;
+}
+.images-15 {
+  left: 735px;
+  bottom: 60px;
+}
+.images-16 {
+  right: 20px;
+  bottom: 5px;
+}
+.container-5 {
+  background-color: #f64b3c;
+  padding-bottom: 50px;
+}
+.Statistics {
+  font-size: 62px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+.lorem-100 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+.stat {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+.customer {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: #f64b3c;
+  text-align: center;
+}
+.abc {
+  font-size: 102px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 60px;
+}
+.outlet {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-family: sans-serif;
+  text-align: center;
+}
+.container-6 {
+  background-color: #f6eedf;
+  padding: 100px 0 1px 0;
+  position: relative;
+  overflow: hidden;
+}
+.Popular-package {
+  font-size: 75px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+  font-family: sans-serif;
+}
+.card-item {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 20px; */
+  padding-top: 50px;
+  margin: 100px;
+}
+.card {
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 20px 50px;
+  /* justify-content: center; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.package {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-family: sans-serif;
+  text-align: center;
+}
+.amount {
+  font-size: 33px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+.Icon-burger {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.lorem-200 {
+  font-size: 20px;
+  color: #f64b3c;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.button-30 {
+  border-radius: 32px;
+  background-color: #f64b3c;
+  color: white;
+  margin-top: 20px;
+
+  font-weight: 700;
+  font-size: 23px;
+  padding: 15px 50px;
+  border: none;
+}
+div[class*="aru"] {
+  position: absolute;
+}
+.aru-1 {
+  top: 40px;
+  right: 170px;
+}
+.aru-2 {
+  top: 115px;
+  left: 230px;
+}
+.aru-3 {
+  top: 210px;
+  left: 20px;
+}
+.aru-4 {
+  bottom: 70px;
+  left: 0px;
+}
+.aru-5 {
+  top: 260px;
+  right: -15px;
+}
+.aru-6 {
+  bottom: 25px;
+  right: 55px;
+}
+.container-7 {
+  background: url(../../images/background-burger.png) no-repeat center
+    center/cover #716c53;
+  /* background-color: #716c53; */
+  padding: 100px 0 100px 0;
+}
+.new {
+  margin-top: 100px;
+}
+.lrm {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 100px;
+  margin: 100px 0 0px 0;
+}
+.Barry-Henderson {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Calistoga";
+  text-align: center;
+  font-family: sans-serif;
+  padding-bottom: 100px;
+  padding: 100px 0;
+  margin: 100px 0;
 }
