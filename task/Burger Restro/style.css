@@ -27,7 +27,7 @@
 }
 .logo {
 }
-ul {
+.ul-1 {
   display: flex;
   list-style-type: none;
   gap: 60px;
@@ -65,6 +65,7 @@ ul {
   font-size: 25px;
   padding: 20px 85px;
   border: none;
+  cursor: pointer;
 }
 .container-2 {
   background-color: #f6eedf;
@@ -215,6 +216,7 @@ div[class*="img"] {
   font-weight: 700;
   padding: 20px 85px;
   border: none;
+  cursor: pointer;
 }
 .container-4 {
   background-color: #f6eedf;
@@ -254,6 +256,7 @@ div[class*="img"] {
   font-size: 25px;
   padding: 20px 85px;
   border: none;
+  cursor: pointer;
 }
 .burgir-1 {
   border-radius: 50%;
@@ -411,7 +414,7 @@ div[class*="img"] {
   background-color: #f64b3c;
   color: white;
   margin-top: 20px;
-
+  cursor: pointer;
   font-weight: 700;
   font-size: 23px;
   padding: 15px 50px;
@@ -556,6 +559,7 @@ div[class*="aru"] {
   right: -3%;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
+  cursor: pointer;
 }
 
 .absolute div {
@@ -592,4 +596,79 @@ div[class*="aru"] {
 .deep-8 {
   bottom: 300px;
   right: 150px;
+}
+footer {
+  background-color: #222222;
+  color: #fff;
+  padding: 100px;
+}
+.container-9 {
+  padding-bottom: 100px;
+}
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  padding: 60px 100px 100px 0;
+}
+.info-wrapper h1 {
+  font-size: 31px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-family: sans-serif;
+}
+.info-wrapper p {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: "Nunito"; */
+}
+.social-media-icons {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 15px;
+}
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.links-container ul li {
+  list-style-type: none;
+}
+.links-container li {
+  font-size: 24px;
+  line-height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.links-container li:first-of-type {
+  font-size: 31px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.row-2000 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-60 {
+  width: 60%;
+}
+.insta {
+  cursor: pointer;
+}
+.new-home {
+  cursor: pointer;
 }
