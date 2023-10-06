@@ -585,6 +585,10 @@ div[class*="aru"] {
   border: none;
   font-family: sans-serif;
 }
+.your-email:hover {
+  background-color: #9ae60f;
+  color: rgb(235, 12, 12);
+}
 .subscribe {
   position: absolute;
   font-size: 25px;
