@@ -103,12 +103,9 @@
 }
 
 div[class*="img"] {
-  /* height: 200px;
-  width: 200px; */
   position: absolute;
 }
 .img-1 {
-  /* background: no-repeat; */
   top: 42%;
   left: -10px;
 }
