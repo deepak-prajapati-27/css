@@ -12,10 +12,10 @@ body {
 .logo {
   height: 24px;
 }
-.container-1 {
+.container {
   padding: 50px;
-  width: 1356px;
-  margin: 0 auto;
+  /* width: 1356px; */
+  margin: 100px auto;
 }
 
 nav {
@@ -195,4 +195,224 @@ input {
 
 .section-2 {
   margin-top: 100px;
+}
+.name-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p-orange {
+  font-size: 29px;
+  line-height: 40px;
+  color: #eaa73b;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 50px;
+  color: #12202f;
+  font-weight: 900;
+  font-family: "Playfair Display";
+}
+.card-wrapper {
+  display: flex;
+  gap: 70px;
+  margin: 100px 0;
+}
+.card {
+  border-radius: 40px;
+  filter: drop-shadow(-5.557px 5.755px 0px rgba(150, 137, 104, 0.09));
+  background-color: #faf8ef;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 30px 10px;
+}
+.card-h1 {
+  font-size: 40px;
+  color: #12202f;
+  font-weight: 900;
+  font-family: "Playfair Display";
+  margin: 20px 0;
+}
+.card-p {
+  font-size: 18px;
+  line-height: 31px;
+  color: #12202f;
+  font-weight: 600;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+.card-button {
+  border-radius: 28px;
+  background-color: #df581e;
+  font-size: 21px;
+  line-height: 33px;
+  color: #ebe3cd;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 10px 40px;
+  border: none;
+}
+.care-about-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.p-green {
+  font-size: 29px;
+  line-height: 40px;
+  color: #6bb99c;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.green-button {
+  font-size: 21px;
+  line-height: 40px;
+  color: #ebe3cd;
+  font-weight: 400;
+  font-family: "Montserrat";
+  border-radius: 28px;
+  background-color: #6bb99c;
+  padding: 5px 35px;
+  border: none;
+}
+.col-50 {
+  width: 50%;
+  margin-top: 40px;
+  z-index: 1;
+}
+.section-4 {
+  position: relative;
+  overflow: hidden;
+}
+.table div {
+  position: absolute;
+}
+.table-1 {
+  bottom: 145px;
+  left: 95px;
+}
+.table-2 {
+  right: 75px;
+  bottom: 145px;
+}
+.table-3 {
+  top: 60px;
+  left: -100px;
+}
+.table-4 {
+  top: 60px;
+  right: -100px;
+}
+.col-40 {
+  width: 40%;
+}
+.lorem-10 {
+  font-size: 17px;
+  line-height: 31px;
+  color: #12202f;
+  font-weight: 600;
+  font-family: "Montserrat";
+  text-align: left;
+  margin-top: 20px;
+}
+.button-read-more {
+  font-size: 21px;
+  line-height: 33px;
+  color: #ebe3cd;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  border-radius: 28px;
+  background-color: #df581e;
+  padding: 10px 40px;
+  border: none;
+  margin-top: 30px;
+}
+.col-60 {
+  width: 60%;
+  margin-left: 100px;
+}
+.col-100 {
+  display: flex;
+  padding: 100px;
+}
+.img-illu {
+  margin-left: 100px;
+}
+.section-5 {
+  position: relative;
+}
+.absolute div {
+  position: absolute;
+}
+.plant-1 {
+  top: -70px;
+  right: 35%;
+}
+.plant-2 {
+  top: -130px;
+  right: 100px;
+}
+.col-60-1 {
+  width: 60%;
+}
+.col-40-1 {
+  width: 40%;
+  margin-top: 70px;
+}
+.green-read-more {
+  border-radius: 28px;
+  background-color: #6bb99c;
+  font-size: 21px;
+  line-height: 33px;
+  color: #ebe3cd;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  border: none;
+  padding: 10px 40px;
+  margin-top: 30px;
+}
+.white-wrapper {
+  border-radius: 78px;
+  background-color: #faf8ef;
+}
+.words-from {
+  font-size: 29px;
+  line-height: 40px;
+  color: #6bb99c;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-top: 100px;
+}
+.img-illu-1 {
+}
+.section-7 {
+  position: relative;
+}
+.spoon {
+  top: 16%;
+  right: 41%;
+}
+.what-our {
+  text-align: center;
+}
+.p-what-our {
+  font-size: 29px;
+  line-height: 40px;
+  color: #df581e;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.review {
+  border-radius: 40px;
+  filter: drop-shadow(-5.557px 5.755px 0px rgba(150, 137, 104, 0.15));
+  background-color: #faf8ef;
+  border: 2px solid #ffffff;
 }
