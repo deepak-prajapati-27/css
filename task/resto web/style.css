@@ -416,3 +416,31 @@ input {
   background-color: #faf8ef;
   border: 2px solid #ffffff;
 }
+.testinomials-h1 {
+  font-size: 29px;
+  color: #12202f;
+  font-weight: 900;
+  font-family: "Playfair Display";
+}
+.testinomials-p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ccc1a3;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.h1-p {
+  display: flex;
+}
+.testinomials-img {
+  /* display: flex; */
+}
+
+.lorem-20 {
+  font-size: 14px;
+  line-height: 25px;
+  color: #12202f;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
