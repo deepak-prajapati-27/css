@@ -14,6 +14,9 @@
   .img-5 {
     left: 19%;
   }
+  .img-3 {
+    top: 20%;
+  }
 }
 @media (max-width: 1200px) {
   .img-5 {
@@ -30,7 +33,7 @@
   .flex {
     flex-wrap: wrap;
     gap: 78px;
-    justify-content: center;
+    justify-content: space-around;
   }
   .para {
     font-size: 28px;
