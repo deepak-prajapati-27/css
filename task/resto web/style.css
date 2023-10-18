@@ -433,8 +433,9 @@ input {
 .h1-p {
   display: flex;
 }
-.testinomials-img {
-  /* display: flex; */
+.testinomials {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .lorem-20 {
@@ -443,4 +444,11 @@ input {
   color: #12202f;
   font-weight: 600;
   font-family: "Montserrat";
+}
+.testimonial-text-content {
+  display: flex;
+  flex-direction: column;
+}
+.review {
+  display: flex;
 }
