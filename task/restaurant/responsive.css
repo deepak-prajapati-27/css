@@ -73,9 +73,10 @@
 @media (max-width: 576px) {
   .flex {
     flex-direction: column;
+    gap: 50px;
   }
   .card-container {
-    margin: 50px;
+    margin: 0px;
   }
   .img-6 {
     bottom: 25%;
@@ -85,5 +86,105 @@
   }
   .img-3 {
     left: 0;
+  }
+  .para-wrapper {
+    align-items: center;
+  }
+  .title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .p-wrapper {
+    text-align: center;
+  }
+  .stat {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .faizer-p {
+    font-size: 25px;
+  }
+  .faizer-name {
+    font-size: 36px;
+  }
+  .p-wrapper {
+    font-size: 22px;
+  }
+  .h2-wrapper {
+    font-size: 60px;
+  }
+  .button-wrapper {
+    padding: 17px 45px;
+  }
+  .Statistics {
+    font-size: 60px;
+  }
+  .lorem-100 {
+    font-size: 22px;
+  }
+  .para {
+    font-size: 22px;
+  }
+  .heading {
+    font-size: 60px;
+  }
+  .your-email {
+    width: 414px;
+  }
+  .subscribe-button {
+    right: 24%;
+    bottom: 10px;
+  }
+  .inquery-title {
+    font-size: 60px;
+  }
+  .inquery-p {
+    font-size: 22px;
+  }
+  .col-40 {
+    width: 100%;
+  }
+  .info-wrapper {
+    padding: 0;
+    align-items: center;
+  }
+  .info-wrapper p {
+    text-align: center;
+    font-size: 19px;
+  }
+  .row-2000 {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .links-container {
+    gap: 50px;
+  }
+  .links-container li {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .col-60 {
+    width: 100%;
+  }
+  .links-container li:first-of-type {
+    font-size: 25px;
+  }
+  .section-6 {
+    padding-bottom: 0;
+  }
+  .header-title {
+    font-size: 78px;
+    margin-bottom: 70px;
+  }
+  .header-p {
+    font-size: 22px;
+  }
+  .header {
+    width: 100%;
+    text-align: center;
   }
 }
