@@ -415,6 +415,8 @@ input {
   filter: drop-shadow(-5.557px 5.755px 0px rgba(150, 137, 104, 0.15));
   background-color: #faf8ef;
   border: 2px solid #ffffff;
+  display: flex;
+  padding: 19px;
 }
 .testinomials-h1 {
   font-size: 29px;
@@ -436,6 +438,9 @@ input {
 .testinomials {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 42%;
 }
 
 .lorem-20 {
@@ -448,7 +453,6 @@ input {
 .testimonial-text-content {
   display: flex;
   flex-direction: column;
-}
-.review {
-  display: flex;
+  padding: 0 68px;
+  justify-content: center;
 }

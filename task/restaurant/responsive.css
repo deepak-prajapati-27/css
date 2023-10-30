@@ -64,6 +64,9 @@
   .title-wrapper {
     gap: 100px;
   }
+  .ul-header {
+    gap: 60px;
+  }
   .faizer-p {
     font-size: 32px;
   }
